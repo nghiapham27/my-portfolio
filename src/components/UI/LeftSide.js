@@ -1,8 +1,16 @@
+'use client';
+
 import { contacts } from '@/utils/constants';
+import { motion } from 'framer-motion';
 
 const LeftSide = () => {
   return (
-    <div className="absolute left-0 bottom-0 ">
+    <motion.div
+      initial={{ opacity: 0, x: '-100%' }}
+      animate={{ opacity: 1, x: '0' }}
+      transition={{ duration: 0.5 }}
+      className="absolute left-0 bottom-0 "
+    >
       <div className="hidden lg:flex flex-col w-[120px] justify-end items-center">
         {/* contacts list */}
         <ul className="flex flex-col gap-6">
@@ -27,7 +35,7 @@ const LeftSide = () => {
         {/* vertical divider */}
         <div className="h-[120px] w-[2px] bg-darkColor mt-10"></div>
       </div>
-    </div>
+    </motion.div>
   );
 };
 export default LeftSide;
