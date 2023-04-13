@@ -11,7 +11,7 @@ const LeftSide = () => {
       transition={{ duration: 0.5 }}
       className="absolute left-0 bottom-0 "
     >
-      <div className="hidden lg:flex flex-col w-[120px] justify-end items-center">
+      <div className="hidden xl:flex flex-col w-[120px] justify-end items-center">
         {/* contacts list */}
         <ul className="flex flex-col gap-6">
           {contacts.map((contact) => {
