@@ -1,5 +1,7 @@
 import './globals.css';
 import NavBar from '@/components/Navigation/NavBar';
+import LeftSide from '@/components/UI/LeftSide';
+import RightSide from '@/components/UI/RightSide';
 
 export const metadata = {
   title: "Nghia Pham's Portfolio",
@@ -15,6 +17,8 @@ export default function RootLayout({ children }) {
     <html lang="en">
       <body className="bg-bodyColor overflow-x-hidden">
         <NavBar />
+        <LeftSide />
+        <RightSide />
         {children}
       </body>
     </html>
