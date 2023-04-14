@@ -55,7 +55,7 @@ const Introduction = () => {
         <p className="text-xl text-darkColor mb-2">My skills</p>
         <ul className="flex flex-wrap gap-4 lg:justify-between justify-center">
           {skills.map((skill) => {
-            return <SkillCard {...skill} />;
+            return <SkillCard key={skill.id} {...skill} />;
           })}
         </ul>
       </div>
@@ -64,7 +64,7 @@ const Introduction = () => {
         <p className="text-xl text-darkColor mb-2">I'm diving into...</p>
         <ul className="flex gap-4 lg:justify-start justify-center">
           {skillsLearning.map((skill) => {
-            return <SkillCard {...skill} />;
+            return <SkillCard key={skill.id} {...skill} />;
           })}
         </ul>
       </div>
