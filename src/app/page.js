@@ -8,6 +8,7 @@ export default function Home() {
       <p className="text-primaryColor font-bodyFont text-xl md:text-left text-center">
         <TypedEffect text="Hi, my name is" />
       </p>
+      {/* Main content */}
       <Introduction />
     </div>
   );

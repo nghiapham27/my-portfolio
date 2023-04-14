@@ -1,5 +1,6 @@
 import { TbBrandGithub, TbFileText } from 'react-icons/tb';
-import { SlSocialLinkedin } from 'react-icons/sl';
+import { SlSocialLinkedin, SlGraduation } from 'react-icons/sl';
+import { MdWorkOutline } from 'react-icons/md';
 
 import {
   js,
@@ -25,6 +26,16 @@ export const contacts = [
   { id: 0, text: 'Github', icon: <TbBrandGithub />, url: '/' },
   { id: 1, text: 'Linkedin', icon: <SlSocialLinkedin />, url: '/projects' },
   { id: 2, text: 'resume', icon: <TbFileText />, url: '/' },
+];
+export const aboutMenu = [
+  { id: 0, text: 'Education', icon: <SlGraduation /> },
+  { id: 1, text: 'Work', icon: <MdWorkOutline /> },
+];
+export const onlineCourses = [
+  { id: 0, text: 'course1' },
+  { id: 1, text: 'course2' },
+  { id: 2, text: 'course3' },
+  { id: 3, text: 'course4' },
 ];
 
 export const skills = [
