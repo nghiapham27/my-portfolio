@@ -9,7 +9,7 @@ const LeftSide = () => {
       initial={{ opacity: 0, x: '-100%' }}
       animate={{ opacity: 1, x: '0' }}
       transition={{ duration: 0.5 }}
-      className="absolute left-0 bottom-0 "
+      className="fixed left-0 bottom-0 "
     >
       <div className="hidden xl:flex flex-col w-[120px] justify-end items-center">
         {/* contacts list */}

@@ -14,10 +14,10 @@ export default function Home() {
           <p className="text-primaryColor font-bodyFont text-xl">
             Hi, my name is
           </p>
-          <h1 className="text-lightColor font-titleFont text-3xl mt-4">
+          <h1 className="text-lightColor font-titleFont text-3xl lg:text-5xl  mt-4">
             Pham Trung Nghia
           </h1>
-          <h3 className="text-darkColor font-titleFont text-2xl">
+          <h3 className="text-darkColor font-titleFont text-xl lg:text-2xl">
             Front-end developer
           </h3>
           <p className="text-darkColor font-bodyFont text-xl mt-4">
@@ -58,7 +58,7 @@ export default function Home() {
       {/* I'm diving into... */}
       <div className="w-full mt-4">
         <p className="text-xl text-darkColor mb-2">I'm diving into...</p>
-        <ul className="flex gap-4">
+        <ul className="flex gap-4 lg:justify-start justify-center">
           {skillsLearning.map((skill) => {
             return <SkillCard {...skill} />;
           })}

@@ -7,7 +7,7 @@ const RightSide = () => {
       initial={{ opacity: 0, x: '100%' }}
       animate={{ opacity: 1, x: '0' }}
       transition={{ duration: 0.5 }}
-      className="absolute right-0 bottom-0 "
+      className="fixed right-0 bottom-0 "
     >
       <div className="hidden xl:flex flex-col w-[120px] h-[250px] justify-between items-center">
         <p className="hover:text-lightColor rotate-90 cursor-pointer text-primaryColor tracking-wide">
