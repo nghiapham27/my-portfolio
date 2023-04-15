@@ -52,8 +52,8 @@ const Introduction = () => {
       </div>
       {/* Skills */}
       <div className="w-full mt-4">
-        <p className="text-xl text-darkColor mb-2">My skills</p>
-        <ul className="flex flex-wrap gap-4 lg:justify-between justify-center">
+        <p className="text-xl text-lightColor mb-2">My skills</p>
+        <ul className="flex flex-wrap gap-8 gap-y-2 lg:justify-start justify-center">
           {skills.map((skill) => {
             return <SkillCard key={skill.id} {...skill} />;
           })}
@@ -61,8 +61,8 @@ const Introduction = () => {
       </div>
       {/* I'm diving into... */}
       <div className="w-full mt-4">
-        <p className="text-xl text-darkColor mb-2">I'm diving into...</p>
-        <ul className="flex gap-4 lg:justify-start justify-center">
+        <p className="text-xl text-lightColor mb-2">I'm diving into...</p>
+        <ul className="flex gap-10 lg:justify-start justify-center">
           {skillsLearning.map((skill) => {
             return <SkillCard key={skill.id} {...skill} />;
           })}
