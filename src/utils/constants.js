@@ -32,14 +32,24 @@ export const navList = [
 ];
 
 export const socials = [
-  { id: 0, text: 'Github', icon: <TbBrandGithub />, url: '/' },
+  {
+    id: 0,
+    text: 'Github',
+    icon: <TbBrandGithub />,
+    url: 'https://github.com/nghiapham27',
+  },
   {
     id: 1,
     text: 'Linkedin',
     icon: <SlSocialLinkedin />,
     url: 'https://www.linkedin.com/in/nghia-pham-90bbb0272/',
   },
-  { id: 2, text: 'resume', icon: <TbFileText />, url: '/' },
+  {
+    id: 2,
+    text: 'resume',
+    icon: <TbFileText />,
+    url: 'https://drive.google.com/file/d/1CGZORE7iKGCFq77Hd1HP-EptbF5A0xHY/view',
+  },
 ];
 
 export const aboutMenu = [
