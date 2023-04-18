@@ -105,8 +105,8 @@ export const projects = [
     title: 'Furni Store',
     description: 'E-commerce Project',
     image: furniStore,
-    url: '/',
-    github: '/',
+    url: 'https://furni-store-project.vercel.app/',
+    github: 'https://github.com/nghiapham27/furni-store-project',
     techStacks: [
       { id: 0, text: 'CSS', icon: css },
       { id: 1, text: 'Javascript', icon: js },
