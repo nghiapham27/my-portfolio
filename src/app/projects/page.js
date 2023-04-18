@@ -3,7 +3,7 @@ import SectionTitle from '@/components/UI/SectionTitle';
 
 const Page = () => {
   return (
-    <div className="w-full max-w-5xl mx-auto px-4">
+    <div className="w-full max-w-5xl mx-auto px-4 mt-8">
       <SectionTitle text="My Projects" />
       <ProjectsSwiper />
     </div>

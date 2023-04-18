@@ -19,7 +19,7 @@ export default function RootLayout({ children }) {
         <NavBar />
         <LeftSide />
         <RightSide />
-        <section className="w-full h-full min-h-[90vh] flex items-center font-bodyFont">
+        <section className="w-full h-full min-h-[90vh] flex font-bodyFont">
           {children}
         </section>
       </body>

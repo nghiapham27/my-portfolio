@@ -3,14 +3,17 @@
 import Link from 'next/link';
 import { useState } from 'react';
 import { motion } from 'framer-motion';
+import { usePathname } from 'next/navigation';
 
-import { navList, contacts } from '@/utils/constants';
+import { navList, socials } from '@/utils/constants';
 import BarIcon from './BarIcon';
 import { MdClose } from 'react-icons/md';
 
 let delay = 0.15; // initial animation delay
 const SideBar = () => {
   const [showSideBar, setShowSideBar] = useState(false);
+  const currentPath = usePathname();
+
   return (
     <div className="md:hidden">
       {/* Sidebar icon */}
@@ -59,10 +62,15 @@ const SideBar = () => {
                   >
                     <Link
                       href={link.url}
-                      className="
-                    hover:text-primaryColor
-                    transition-all
-                    duration-300"
+                      className={`
+                hover:text-primaryColor
+                transition-all
+                duration-100
+                ${
+                  currentPath === link.url
+                    ? 'border-b-2 border-primaryColor'
+                    : ''
+                }`}
                       onClick={() => setShowSideBar(false)}
                     >
                       {link.text}
@@ -72,7 +80,7 @@ const SideBar = () => {
               })}
             </motion.ul>
             <ul className="w-full flex justify-center gap-8 items-center mt-10">
-              {contacts.map((contact, index) => {
+              {socials.map((contact, index) => {
                 let delayDuration = delay * index;
                 return (
                   <motion.li
@@ -83,7 +91,7 @@ const SideBar = () => {
                     className="w-[40px] h-[40px] rounded-full bg-primaryColor flex items-center justify-center shadow-lg cursor-pointer group hover:-translate-y-1 hover:bg-lightColor transition-all duration-300"
                   >
                     <a
-                      href=""
+                      href={contact.url}
                       target="_blank"
                       className="text-2xl text-lightColor group-hover:text-primaryColor "
                     >

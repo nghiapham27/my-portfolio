@@ -1,8 +1,9 @@
 const SectionTitle = ({ text }) => {
   return (
-    <div className="flex items-center gap-10 font-titleFont">
-      <h1 className="text-lightColor text-3xl lg:text-4xl">{text}</h1>
-      <div className="w-[200px] lg:w-[400px] h-[1px] bg-darkColor"></div>
+    <div className="w-full max-w-max mx-auto">
+      <h1 className="text-lightColor text-2xl md:text-3xl lg:text-4xl pb-2 border-b-2 border-b-primaryColor">
+        {text}
+      </h1>
     </div>
   );
 };

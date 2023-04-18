@@ -37,7 +37,7 @@ const Introduction = () => {
             <div className="w-full h-[2px] bg-primaryColor -translate-x-[110%] transition-all duration-300 group-hover:translate-x-0 "></div>
           </div>
           <Link href={'/projects'} className="btn-primary text-xl mt-4">
-            Check out my projects
+            My Projects
           </Link>
         </div>
 
@@ -61,7 +61,7 @@ const Introduction = () => {
       </div>
       {/* I'm diving into... */}
       <div className="w-full mt-4">
-        <p className="text-xl text-lightColor mb-2">I'm diving into...</p>
+        <p className="text-xl text-lightColor mb-2">I&#39;m diving into...</p>
         <ul className="flex gap-10 lg:justify-start justify-center">
           {skillsLearning.map((skill) => {
             return <SkillCard key={skill.id} {...skill} />;

@@ -1,6 +1,6 @@
 'use client';
 
-import { contacts } from '@/utils/constants';
+import { socials } from '@/utils/constants';
 import { motion } from 'framer-motion';
 
 const LeftSide = () => {
@@ -12,16 +12,16 @@ const LeftSide = () => {
       className="fixed left-0 bottom-0 "
     >
       <div className="hidden xl:flex flex-col w-[120px] justify-end items-center">
-        {/* contacts list */}
+        {/* socials list */}
         <ul className="flex flex-col gap-6">
-          {contacts.map((contact) => {
+          {socials.map((contact) => {
             return (
               <li
                 key={contact.id}
                 className="w-[40px] h-[40px] rounded-full bg-darkColor flex items-center justify-center shadow-lg cursor-pointer group hover:-translate-y-1 transition-all duration-300"
               >
                 <a
-                  href=""
+                  href={contact.url}
                   target="_blank"
                   className="text-2xl text-lightColor group-hover:text-primaryColor"
                 >

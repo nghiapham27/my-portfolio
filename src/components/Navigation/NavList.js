@@ -1,9 +1,13 @@
+'use client';
+
 import Link from 'next/link';
 import { navList } from '@/utils/constants';
 import { motion } from 'framer-motion';
+import { usePathname } from 'next/navigation';
 
 let delay = 0.15; // initial animation delay
 const NavList = () => {
+  const currentPath = usePathname();
   return (
     <div>
       <ul className="hidden md:flex gap-5 text-xl font-titleFont text-lightColor ">
@@ -19,10 +23,15 @@ const NavList = () => {
             >
               <Link
                 href={link.url}
-                className="
+                className={`
                 hover:text-primaryColor
                 transition-all
-                duration-300"
+                duration-100
+                ${
+                  currentPath === link.url
+                    ? 'border-b-2 border-primaryColor'
+                    : ''
+                }`}
               >
                 {link.text}
               </Link>
