@@ -42,7 +42,7 @@ const MyInfo = () => {
                 className="w-[40px] h-[40px] rounded-full bg-primaryColor flex items-center justify-center shadow-lg cursor-pointer group hover:-translate-y-1 hover:bg-lightColor transition-all duration-300"
               >
                 <a
-                  href=""
+                  href={contact.url}
                   target="_blank"
                   className="text-2xl text-lightColor group-hover:text-primaryColor "
                 >
