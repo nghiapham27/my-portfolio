@@ -1,6 +1,6 @@
 // Profile
 import logo from './images/my-logo.png';
-import profile from './images/test-profile-photo.jpg';
+import profile from './images/profile-photo.jpg';
 // Projects
 import furniStore from './images/furni-store.png';
 import bestEats from './images/best-eats.png';
