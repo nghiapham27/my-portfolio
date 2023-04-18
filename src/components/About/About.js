@@ -10,7 +10,7 @@ const About = () => {
   const [activeMenu, setActiveMenu] = useState(aboutMenu[0].text);
 
   return (
-    <div className="w-full h-[50vh] max-h-[400px] flex gap-5 mt-10 text-darkColor">
+    <div className="w-full h-[50vh] max-h-[400px] flex gap-5 mt-10 text-darkColor text-base md:text-xl">
       {/* Menu column */}
       <div className="w-1/3  text-xl">
         <ul className="flex flex-col border-l-2 border-gray-300">
@@ -18,7 +18,7 @@ const About = () => {
             return (
               <li
                 key={menu.id}
-                className={`flex gap-2 text-xl items-center py-6 cursor-pointer pl-2 border-l-2 -ml-[2px]  hover:bg-hoverColor ${
+                className={`flex gap-2 items-center py-6 cursor-pointer pl-2 border-l-2 -ml-[2px]  hover:bg-hoverColor ${
                   activeMenu === menu.text ? 'border-primaryColor' : ''
                 }`}
                 onClick={() => setActiveMenu(menu.text)}
@@ -40,7 +40,7 @@ const About = () => {
           >
             {/* University */}
             <div>
-              <h2 className="text-lightColor text-xl">
+              <h2 className="text-lightColor">
                 Ho Chi Minh City University of Technology (HCMUT)
               </h2>
               <h3>Major: Mechatronics</h3>
@@ -48,15 +48,12 @@ const About = () => {
             </div>
             {/* Self-taught */}
             <div className="mt-4">
-              <h2 className="text-lightColor text-xl">Online Courses</h2>
+              <h2 className="text-lightColor">Online Courses</h2>
               <h3>Platform: Udemy</h3>
               <ul className="mt-4 flex flex-col gap-y-4">
                 {onlineCourses.map((course) => {
                   return (
-                    <li
-                      key={course.id}
-                      className="flex gap-1 items-center text-lg md:text-xl"
-                    >
+                    <li key={course.id} className="flex gap-1 items-center">
                       <MdNavigateNext className="text-primaryColor shrink-0" />
                       <div className="group overflow-hidden">
                         <a href={course.url} target="_blank">
@@ -71,7 +68,7 @@ const About = () => {
             </div>
           </motion.div>
         )}
-        {/* Work */}
+        {/* Contact */}
         {activeMenu === aboutMenu[1].text && (
           <motion.div
             initial={{ opacity: 0, x: '100%' }}
@@ -83,9 +80,9 @@ const About = () => {
                 return (
                   <li
                     key={contact.id}
-                    className="flex items-center gap-8 text-lightColor text-xl"
+                    className="flex items-center md:gap-8 text-lightColor"
                   >
-                    <div className="w-8 h-8 rounded-full bg-primaryColor/60 flex justify-center items-center">
+                    <div className="hidden w-8 h-8 rounded-full bg-primaryColor/60 md:flex justify-center items-center">
                       <div className="text-xl text-lightColor">
                         {contact.icon}
                       </div>
