@@ -1,5 +1,13 @@
 # This is my portfolio
 
+## Technologies used
+
+- Javascript
+- NextJS
+- Tailwindcss
+- Framer Motion
+- SwiperJS
+
 ## Usage
 
 ```javascript
