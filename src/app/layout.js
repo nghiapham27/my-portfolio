@@ -4,7 +4,7 @@ import LeftSide from '@/components/UI/LeftSide';
 import RightSide from '@/components/UI/RightSide';
 
 export const metadata = {
-  title: "Nghia Pham's Portfolio",
+  title: "Nghia's Portfolio",
   description: 'My portfolio',
   icons: {
     icon: '/icon.png',
