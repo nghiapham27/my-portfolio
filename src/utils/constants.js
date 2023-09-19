@@ -27,8 +27,8 @@ import {
 export const navList = [
   { id: 0, text: 'Home', url: '/' },
   { id: 1, text: 'About', url: '/about' },
-  { id: 2, text: 'Projects', url: '/projects' },
-  { id: 3, text: 'Contact', url: '/contact' },
+  // { id: 2, text: 'Projects', url: '/projects' },
+  { id: 2, text: 'Contact', url: '/contact' },
 ];
 
 export const socials = [
@@ -36,25 +36,25 @@ export const socials = [
     id: 0,
     text: 'Github',
     icon: <TbBrandGithub />,
-    url: 'https://github.com/nghiapham27',
+    // url: 'https://github.com/nghiapham27',
   },
   {
     id: 1,
     text: 'Linkedin',
     icon: <SlSocialLinkedin />,
-    url: 'https://www.linkedin.com/in/nghia-pham-90bbb0272/',
+    // url: 'https://www.linkedin.com/in/nghia-pham-90bbb0272/',
   },
   {
     id: 2,
     text: 'resume',
     icon: <TbFileText />,
-    url: 'https://drive.google.com/file/d/1CGZORE7iKGCFq77Hd1HP-EptbF5A0xHY/view',
+    // url: 'https://drive.google.com/file/d/1CGZORE7iKGCFq77Hd1HP-EptbF5A0xHY/view',
   },
 ];
 
 export const aboutMenu = [
   { id: 0, text: 'Education', icon: <SlGraduation /> },
-  { id: 1, text: 'Contact', icon: <MdOutlineContactPage /> },
+  { id: 1, text: 'Experiences', icon: <MdOutlineContactPage /> },
 ];
 export const onlineCourses = [
   {
@@ -158,12 +158,27 @@ export const contacts = [
     id: 1,
     title: 'Email',
     icon: <MdOutlineEmail />,
-    text: 'nghiaph27@gmail.com',
+    text: 'imptnghia@gmail.com',
+  },
+  // {
+  //   id: 2,
+  //   title: 'Phone',
+  //   icon: <HiOutlineDevicePhoneMobile />,
+  //   text: '0968 390 325',
+  // },
+];
+
+export const experiences = [
+  {
+    id: 0,
+    company: 'Avery Dennison Vietnam',
+    title: 'Process Engineer',
+    period: '03/2019 - 01/2020',
   },
   {
-    id: 2,
-    title: 'Phone',
-    icon: <HiOutlineDevicePhoneMobile />,
-    text: '0968 390 325',
+    id: 1,
+    company: 'Pepperl+Fuchs Vietnam',
+    title: 'Project Engineer',
+    period: '02/2020 - 11/2020',
   },
 ];

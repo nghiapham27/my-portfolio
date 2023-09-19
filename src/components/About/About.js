@@ -1,10 +1,9 @@
 'use client';
 import { useState } from 'react';
 
-import { aboutMenu, onlineCourses } from '@/utils/constants';
+import { aboutMenu, experiences, onlineCourses } from '@/utils/constants';
 import { motion } from 'framer-motion';
 import { MdNavigateNext } from 'react-icons/md';
-import { contacts } from '@/utils/constants';
 
 const About = () => {
   const [activeMenu, setActiveMenu] = useState(aboutMenu[0].text);
@@ -40,14 +39,14 @@ const About = () => {
           >
             {/* University */}
             <div>
-              <h2 className="text-lightColor">
+              <h2 className="text-lightColor">B.E Mechatronics Engineering</h2>
+              <h3 className="mt-2">
                 Ho Chi Minh City University of Technology (HCMUT)
-              </h2>
-              <h3>Major: Mechatronics</h3>
-              <h3>Course: 2014 - 2018</h3>
+              </h3>
+              <h3 className="mt-2">Course: 2014 - 2018</h3>
             </div>
             {/* Self-taught */}
-            <div className="mt-4">
+            {/* <div className="mt-4">
               <h2 className="text-lightColor">Online Courses</h2>
               <h3>Platform: Udemy</h3>
               <ul className="mt-4 flex flex-col gap-y-4">
@@ -65,29 +64,29 @@ const About = () => {
                   );
                 })}
               </ul>
-            </div>
+            </div> */}
           </motion.div>
         )}
-        {/* Contact */}
+        {/* Experiences */}
         {activeMenu === aboutMenu[1].text && (
           <motion.div
             initial={{ opacity: 0, x: '100%' }}
             animate={{ opacity: 1, x: '0' }}
             transition={{ duration: 1 }}
           >
-            <ul className="flex flex-col gap-4">
-              {contacts.map((contact) => {
+            <ul className="mt-4 flex flex-col gap-y-4">
+              {experiences.map((job) => {
                 return (
-                  <li
-                    key={contact.id}
-                    className="flex items-center md:gap-8 text-lightColor"
-                  >
-                    <div className="hidden w-8 h-8 rounded-full bg-primaryColor/60 md:flex justify-center items-center">
-                      <div className="text-xl text-lightColor">
-                        {contact.icon}
-                      </div>
+                  <li key={job.id} className="flex gap-1 items-start mb-5">
+                    {/* <div> */}
+                    <MdNavigateNext className="text-primaryColor shrink-0" />
+                    <div className="group overflow-hidden text-lightColor">
+                      {job.title}
+                      <div className="w-40 h-[2px] bg-primaryColor -translate-x-[110%] transition-all duration-500 group-hover:translate-x-0 "></div>
+                      <div className="text-darkColor mt-2">{job.company}</div>
+                      <div className="text-darkColor mt-2">{job.period}</div>
                     </div>
-                    <p className="text-lightColor">{contact.text}</p>
+                    {/* </div> */}
                   </li>
                 );
               })}
