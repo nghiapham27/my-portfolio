@@ -22,7 +22,7 @@ const Introduction = () => {
             Pham Trung Nghia
           </h1>
           <h3 className="text-darkColor font-titleFont text-xl lg:text-2xl">
-            Frontend developer
+            Process Engineer
           </h3>
           <p className="text-darkColor font-bodyFont text-xl mt-4">
             I love to create beautiful and robust products with delightful user
