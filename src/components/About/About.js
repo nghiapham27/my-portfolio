@@ -11,7 +11,7 @@ const About = () => {
   return (
     <div className="w-full h-[50vh] max-h-[400px] flex gap-5 mt-10 text-darkColor text-base md:text-xl">
       {/* Menu column */}
-      <div className="w-1/3  text-xl">
+      <div className="w-1/3 text-base md:text-xl">
         <ul className="flex flex-col border-l-2 border-gray-300">
           {aboutMenu.map((menu) => {
             return (
