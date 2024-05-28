@@ -173,12 +173,12 @@ export const experiences = [
     id: 0,
     company: 'Avery Dennison Vietnam',
     title: 'Process Engineer',
-    period: '03/2019 - 01/2020',
+    period: '03/2019 - 12/2020',
   },
   {
     id: 1,
     company: 'Pepperl+Fuchs Vietnam',
     title: 'Project Engineer',
-    period: '02/2020 - 11/2020',
+    period: '01/2021 - 06/2022',
   },
 ];
