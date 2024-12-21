@@ -1,6 +1,6 @@
 // Profile
 import logo from './images/my-logo.png';
-// import profile from './images/profile-photo.jpg';
+import nick from './images/nick.png';
 // Projects
 import furniStore from './images/furni-store.png';
 import bestEats from './images/best-eats.png';
@@ -22,7 +22,7 @@ import github from './icons/github.png';
 
 export {
   // logo,
-  // profile,
+  nick,
   furniStore,
   bestEats,
   digitalVision,
