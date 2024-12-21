@@ -4,7 +4,7 @@ import Image from 'next/image';
 import Link from 'next/link';
 import { motion } from 'framer-motion';
 
-import { nick } from '../../../public';
+import { nick_logo } from '../../../public';
 import { skills, skillsLearning } from '@/utils/constants';
 import SkillCard from '../UI/SkillCard';
 
@@ -18,21 +18,16 @@ const Introduction = () => {
       <div className="w-full flex flex-col md:flex-row justify-between gap-10">
         {/* Introduction */}
         <div className="w-full md:max-w-[600px] flex flex-col items-center md:items-start">
-          <h1 className="text-lightColor font-titleFont text-3xl lg:text-5xl mt-5">
-            ABC
+          <h1 className="text-lightColor font-mono text-3xl lg:text-5xl mt-5">
+            $nick is the first token integrated on the Intelligence Layer for AI
+            Agents
           </h1>
-          <h3 className="text-darkColor font-titleFont text-xl lg:text-2xl">
-            abc
-          </h3>
           <div className="text-darkColor font-bodyFont text-xl mt-4">
-            <p>Introduction</p>
-            <p className="mt-2">Description 1</p>
-            <p className="mt-2">Description 2</p>
+            <p></p>
+            <p className="mt-2"></p>
+            <p className="mt-2"></p>
           </div>
           <div className="w-max group overflow-hidden">
-            <Link href={'/about'} className="text-primaryColor text-lg">
-              More about me
-            </Link>
             <div className="w-full h-[2px] bg-primaryColor -translate-x-[110%] transition-all duration-300 group-hover:translate-x-0 "></div>
           </div>
           {/* <Link href={'/projects'} className="btn-primary text-lg mt-4">
@@ -44,9 +39,9 @@ const Introduction = () => {
 
         <div className="shrink-0 flex items-center justify-center">
           <Image
-            src={nick}
+            src={nick_logo}
             alt="nick"
-            className="w-[150px] h-[150px] rounded-full object-cover"
+            className="w-[300px] h-[300px] rounded-full object-cover"
           />
         </div>
       </div>

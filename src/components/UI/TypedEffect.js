@@ -9,7 +9,7 @@ const TypedEffect = ({ text }) => {
   useEffect(() => {
     const typed = new Typed(el.current, {
       strings: [text],
-      typeSpeed: 50,
+      typeSpeed: 40,
     });
 
     return () => {

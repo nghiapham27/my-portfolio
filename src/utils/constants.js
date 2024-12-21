@@ -1,5 +1,6 @@
-import { TbBrandGithub, TbFileText } from 'react-icons/tb';
-import { SlSocialLinkedin, SlGraduation } from 'react-icons/sl';
+import { FaSquareXTwitter } from 'react-icons/fa6';
+import { FaTelegram, FaGlobe } from 'react-icons/fa';
+import { SlGraduation } from 'react-icons/sl';
 import { MdOutlineContactPage } from 'react-icons/md';
 import { SlLocationPin } from 'react-icons/sl';
 import { MdOutlineEmail } from 'react-icons/md';
@@ -25,29 +26,29 @@ import {
 } from '../../public';
 
 export const navList = [
-  { id: 0, text: 'Home', url: '/' },
-  { id: 1, text: 'About', url: '/about' },
+  { id: 0, text: 'nickdotai', url: '/' },
+  // { id: 1, text: 'About', url: '/about' },
   // { id: 2, text: 'Projects', url: '/projects' },
-  { id: 2, text: 'Contact', url: '/contact' },
+  // { id: 2, text: 'Contact', url: '/contact' },
 ];
 
 export const socials = [
   {
     id: 0,
     text: 'Github',
-    icon: <TbBrandGithub />,
-    // url: 'https://github.com/nghiapham27',
+    icon: <FaSquareXTwitter />,
+    url: 'https://x.com/nickdotai',
   },
   {
     id: 1,
     text: 'Linkedin',
-    icon: <SlSocialLinkedin />,
-    // url: 'https://www.linkedin.com/in/nghia-pham-90bbb0272/',
+    icon: <FaTelegram />,
+    url: 'https://t.me/nickdotai',
   },
   {
     id: 2,
     text: 'resume',
-    icon: <TbFileText />,
+    icon: <FaGlobe />,
     // url: 'https://drive.google.com/file/d/1CGZORE7iKGCFq77Hd1HP-EptbF5A0xHY/view',
   },
 ];
@@ -158,7 +159,7 @@ export const contacts = [
     id: 1,
     title: 'Email',
     icon: <MdOutlineEmail />,
-    text: '@gmail.com',
+    text: 'nickdotai @ 2024',
   },
   // {
   //   id: 2,

@@ -4,7 +4,7 @@ import Image from 'next/image';
 import Link from 'next/link';
 import { motion } from 'framer-motion';
 
-import { logo } from '../../../public';
+import { nick } from '../../../public';
 import NavList from './NavList';
 import SideBar from './SideBar';
 
@@ -20,9 +20,9 @@ const NavBar = () => {
         >
           <Link href={'/'}>
             <Image
-              src={logo}
+              src={nick}
               alt="logo"
-              className="h-[20px] md:h-[30px] w-auto cursor-pointer hover:brightness-75"
+              className="h-[40px] md:h-[30px] w-auto cursor-pointer hover:brightness-75"
             />
           </Link>
         </motion.div>
