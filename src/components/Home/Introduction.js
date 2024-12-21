@@ -39,9 +39,10 @@ const Introduction = () => {
             My Projects
           </Link> */}
         </div>
+      </div>
 
-        {/* Profile Photo */}
-        {/*
+      {/* Profile Photo */}
+      {/*
         <div className="shrink-0 flex items-center justify-center">
           <Image
             src={profile}
