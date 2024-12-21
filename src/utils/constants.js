@@ -152,13 +152,13 @@ export const contacts = [
     id: 0,
     title: 'Location',
     icon: <SlLocationPin />,
-    text: 'Ho Chi Minh City, Vietnam',
+    text: 'Location',
   },
   {
     id: 1,
     title: 'Email',
     icon: <MdOutlineEmail />,
-    text: 'imptnghia@gmail.com',
+    text: '@gmail.com',
   },
   // {
   //   id: 2,
@@ -171,14 +171,14 @@ export const contacts = [
 export const experiences = [
   {
     id: 0,
-    company: 'Avery Dennison Vietnam',
-    title: 'Process Engineer',
-    period: '03/2019 - 12/2020',
+    company: 'ABC',
+    title: 'abc',
+    period: 'timeline',
   },
   {
     id: 1,
-    company: 'Pepperl+Fuchs Vietnam',
-    title: 'Project Engineer',
-    period: '01/2021 - 06/2022',
+    company: 'XYZ',
+    title: 'xyz',
+    period: 'timeline',
   },
 ];

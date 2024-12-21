@@ -19,25 +19,15 @@ const Introduction = () => {
         {/* Introduction */}
         <div className="w-full md:max-w-[600px] flex flex-col items-center md:items-start">
           <h1 className="text-lightColor font-titleFont text-3xl lg:text-5xl mt-5">
-            Pham Trung Nghia
+            ABC
           </h1>
           <h3 className="text-darkColor font-titleFont text-xl lg:text-2xl">
-            Process Engineer
+            abc
           </h3>
           <div className="text-darkColor font-bodyFont text-xl mt-4">
-            <p>
-              A results-driven engineer with 2 years of hands-on experience in
-              enhancing production workflows and project management.
-            </p>
-            <p className="mt-2">
-              Proficient in analyzing, developing, and implementing process
-              improvements that elevate efficiency, reduce costs, and optimize
-              resource utilization.
-            </p>
-            <p className="mt-2">
-              Passionate about innovation and dedicated to enhancing efficiency,
-              reliability, and sustainability in every project undertaken.
-            </p>
+            <p>Introduction</p>
+            <p className="mt-2">Description 1</p>
+            <p className="mt-2">Description 2</p>
           </div>
           <div className="w-max group overflow-hidden">
             <Link href={'/about'} className="text-primaryColor text-lg">
