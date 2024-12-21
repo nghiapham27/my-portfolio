@@ -21,7 +21,7 @@ import motion from './icons/motion.png';
 import github from './icons/github.png';
 
 export {
-  logo,
+  // logo,
   profile,
   furniStore,
   bestEats,
