@@ -4,7 +4,7 @@ import Image from 'next/image';
 import Link from 'next/link';
 import { motion } from 'framer-motion';
 
-// import { profile } from '../../../public';
+import { nick } from '../../../public';
 import { skills, skillsLearning } from '@/utils/constants';
 import SkillCard from '../UI/SkillCard';
 
@@ -39,19 +39,18 @@ const Introduction = () => {
             My Projects
           </Link> */}
         </div>
-      </div>
 
-      {/* Profile Photo */}
-      {/*
+        {/* Profile Photo */}
+
         <div className="shrink-0 flex items-center justify-center">
           <Image
-            src={profile}
-            alt="my photo"
+            src={nick}
+            alt="nick"
             className="w-[150px] h-[150px] rounded-full object-cover"
           />
         </div>
       </div>
-      */}
+
       {/* Skills */}
       {/* <div className="w-full mt-6">
         <p className="text-xl text-lightColor mb-2">My skills</p>

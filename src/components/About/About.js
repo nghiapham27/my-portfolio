@@ -40,10 +40,8 @@ const About = () => {
             {/* University */}
             <div>
               <h2 className="text-lightColor">B.E Mechatronics Engineering</h2>
-              <h3 className="mt-2">
-                Ho Chi Minh City University of Technology (HCMUT)
-              </h3>
-              <h3 className="mt-2">Course: 2014 - 2018</h3>
+              <h3 className="mt-2">XYZ</h3>
+              <h3 className="mt-2">Course: xxx - xxx</h3>
             </div>
             {/* Self-taught */}
             {/* <div className="mt-4">
