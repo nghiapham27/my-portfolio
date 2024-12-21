@@ -4,7 +4,7 @@ import Image from 'next/image';
 import Link from 'next/link';
 import { motion } from 'framer-motion';
 
-import { profile } from '../../../public';
+// import { profile } from '../../../public';
 import { skills, skillsLearning } from '@/utils/constants';
 import SkillCard from '../UI/SkillCard';
 
@@ -41,6 +41,7 @@ const Introduction = () => {
         </div>
 
         {/* Profile Photo */}
+        {/*
         <div className="shrink-0 flex items-center justify-center">
           <Image
             src={profile}
@@ -49,6 +50,7 @@ const Introduction = () => {
           />
         </div>
       </div>
+      */}
       {/* Skills */}
       {/* <div className="w-full mt-6">
         <p className="text-xl text-lightColor mb-2">My skills</p>
