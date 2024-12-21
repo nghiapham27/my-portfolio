@@ -49,7 +49,7 @@ export const socials = [
     id: 2,
     text: 'resume',
     icon: <FaGlobe />,
-    // url: 'https://drive.google.com/file/d/1CGZORE7iKGCFq77Hd1HP-EptbF5A0xHY/view',
+    url: 'https://dexscreener.com/solana/67c4rxhy649h828aw8epjbcjlbqvyu7j1eochm8ece27',
   },
 ];
 

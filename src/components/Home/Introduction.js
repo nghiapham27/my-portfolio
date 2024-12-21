@@ -22,6 +22,9 @@ const Introduction = () => {
             $nick is the first token integrated on the Intelligence Layer for AI
             Agents
           </h1>
+          <h3 className="text-lightColor font-mono text-xl lg:text-2xl mt-5">
+            $nick:5zy77ie2LVoLaMDy2h4SAvPCo3uc8Zno85YGZDZjpump
+          </h3>
           <div className="text-darkColor font-bodyFont text-xl mt-4">
             <p></p>
             <p className="mt-2"></p>
