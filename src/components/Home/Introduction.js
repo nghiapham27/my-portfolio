@@ -18,7 +18,7 @@ const Introduction = () => {
     >
       <div className="w-full flex flex-col md:flex-row justify-between gap-10">
         {/* Introduction */}
-        <div className="w-full md:max-w-[600px] flex flex-col items-center md:items-start">
+        <div className="w-full md:max-w-[600px] flex flex-col items-center md:items-start ">
           <h1 className="text-lightColor font-mono text-3xl lg:text-5xl mt-5 ">
             <a className="text-amber-100">$nick </a>
             <a

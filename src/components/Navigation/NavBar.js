@@ -22,7 +22,7 @@ const NavBar = () => {
             <Image
               src={nick}
               alt="logo"
-              className="h-[40px] md:h-[30px] w-auto cursor-pointer hover:brightness-75"
+              className="h-[40px] md:h-[55px] w-auto cursor-pointer hover:brightness-75"
             />
           </Link>
         </motion.div>
