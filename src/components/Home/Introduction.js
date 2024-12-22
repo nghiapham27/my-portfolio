@@ -36,13 +36,14 @@ const Introduction = () => {
               'https://www.dextools.io/app/en/solana/pair-explorer/67C4rXhY649H828aW8epjbcjLBQVYu7j1eochM8ECE27'
             }
             target="_blank"
-            className="text-lightColor font-mono lg:text-2xl md:text-base sm:text-sm mt-5"
+            className="text-lightColor font-mono lg:text-2xl sm:text-lg text-sm mt-5 "
           >
             <p>$nick CA:</p>
             <a className="underline">
               5zy77ie2LVoLaMDy2h4SAvPCo3uc8Zno85YGZDZjpump
             </a>
           </Link>
+
           <div className="text-darkColor font-bodyFont text-xl mt-4">
             <p></p>
             <p className="mt-2"></p>
