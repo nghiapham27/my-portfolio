@@ -2,6 +2,7 @@
 import logo from './images/my-logo.png';
 import nick from './images/nick.png';
 import nick_logo from './images/nick-logo.png';
+import dextools from './images/dextools.png';
 // Projects
 import furniStore from './images/furni-store.png';
 import bestEats from './images/best-eats.png';
@@ -25,6 +26,7 @@ export {
   logo,
   nick,
   nick_logo,
+  dextools,
   furniStore,
   bestEats,
   digitalVision,

@@ -5,6 +5,7 @@ import { MdOutlineContactPage } from 'react-icons/md';
 import { SlLocationPin } from 'react-icons/sl';
 import { MdOutlineEmail } from 'react-icons/md';
 import { HiOutlineDevicePhoneMobile } from 'react-icons/hi2';
+import { dextools } from '../../public';
 
 import {
   furniStore,
@@ -50,15 +51,7 @@ export const socials = [
     id: 2,
     text: 'resume',
     icon: (
-      <img
-        loading="lazy"
-        decoding="async"
-        width="30"
-        height="30"
-        src="https://mediaresource.sfo2.digitaloceanspaces.com/wp-content/uploads/2024/04/20232343/dex-screener-logo-png_seeklogo-527276.png"
-        class="elementor-animation-shrink attachment-large size-large wp-image-194"
-        sizes="(max-width: 30px) 100vw, 30px"
-      ></img>
+      <img width="30" height="30" src="https://i.ibb.co/YLLgR8b/dextools.png" />
     ),
     url: 'https://www.dextools.io/app/en/solana/pair-explorer/67C4rXhY649H828aW8epjbcjLBQVYu7j1eochM8ECE27',
   },

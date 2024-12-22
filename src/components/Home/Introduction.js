@@ -4,7 +4,7 @@ import Image from 'next/image';
 import Link from 'next/link';
 import { motion } from 'framer-motion';
 
-import { nick_logo } from '../../../public';
+import { nick_logo, dextools } from '../../../public';
 import { skills, skillsLearning } from '@/utils/constants';
 import SkillCard from '../UI/SkillCard';
 
