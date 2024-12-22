@@ -45,11 +45,22 @@ export const socials = [
     icon: <FaTelegram />,
     url: 'https://t.me/nickdotai',
   },
+
   {
     id: 2,
     text: 'resume',
-    icon: <FaGlobe />,
-    url: 'https://dexscreener.com/solana/67c4rxhy649h828aw8epjbcjlbqvyu7j1eochm8ece27',
+    icon: (
+      <img
+        loading="lazy"
+        decoding="async"
+        width="30"
+        height="30"
+        src="https://mediaresource.sfo2.digitaloceanspaces.com/wp-content/uploads/2024/04/20232343/dex-screener-logo-png_seeklogo-527276.png"
+        class="elementor-animation-shrink attachment-large size-large wp-image-194"
+        sizes="(max-width: 30px) 100vw, 30px"
+      ></img>
+    ),
+    url: 'https://www.dextools.io/app/en/solana/pair-explorer/67C4rXhY649H828aW8epjbcjLBQVYu7j1eochM8ECE27',
   },
 ];
 

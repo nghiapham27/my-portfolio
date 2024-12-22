@@ -25,7 +25,7 @@ const Introduction = () => {
 
           <Link
             href={
-              'https://dexscreener.com/solana/67c4rxhy649h828aw8epjbcjlbqvyu7j1eochm8ece27'
+              'https://www.dextools.io/app/en/solana/pair-explorer/67C4rXhY649H828aW8epjbcjLBQVYu7j1eochM8ECE27'
             }
             className="text-lightColor font-mono text-md lg:text-2xl mt-5"
           >
