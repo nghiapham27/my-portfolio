@@ -18,13 +18,22 @@ const Introduction = () => {
       <div className="w-full flex flex-col md:flex-row justify-between gap-10">
         {/* Introduction */}
         <div className="w-full md:max-w-[600px] flex flex-col items-center md:items-start">
-          <h1 className="text-lightColor font-mono text-3xl lg:text-5xl mt-5">
+          <h1 className="text-lightColor font-mono text-3xl lg:text-5xl mt-5 text-left">
             $nick is the first token integrated on the Intelligence Layer for AI
             Agents
           </h1>
-          <h3 className="text-lightColor font-mono text-xl lg:text-2xl mt-5">
-            $nick:5zy77ie2LVoLaMDy2h4SAvPCo3uc8Zno85YGZDZjpump
-          </h3>
+
+          <Link
+            href={
+              'https://dexscreener.com/solana/67c4rxhy649h828aw8epjbcjlbqvyu7j1eochm8ece27'
+            }
+            className="text-lightColor font-mono text-md lg:text-2xl mt-5"
+          >
+            <p>$nick CA:</p>
+            <a className="underline">
+              5zy77ie2LVoLaMDy2h4SAvPCo3uc8Zno85YGZDZjpump
+            </a>
+          </Link>
           <div className="text-darkColor font-bodyFont text-xl mt-4">
             <p></p>
             <p className="mt-2"></p>
