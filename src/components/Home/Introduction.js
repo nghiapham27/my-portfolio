@@ -36,7 +36,7 @@ const Introduction = () => {
               'https://www.dextools.io/app/en/solana/pair-explorer/67C4rXhY649H828aW8epjbcjLBQVYu7j1eochM8ECE27'
             }
             target="_blank"
-            className="text-lightColor font-mono text-base lg:text-2xl mt-5"
+            className="text-lightColor font-mono lg:text-2xl md:text-base sm:text-sm mt-5"
           >
             <p>$nick CA:</p>
             <a className="underline">
