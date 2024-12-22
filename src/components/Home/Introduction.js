@@ -7,6 +7,7 @@ import { motion } from 'framer-motion';
 import { nick_logo, dextools } from '../../../public';
 import { skills, skillsLearning } from '@/utils/constants';
 import SkillCard from '../UI/SkillCard';
+import ProjectsSwiper from './ProjectsSwiper';
 
 const Introduction = () => {
   return (
@@ -27,6 +28,7 @@ const Introduction = () => {
             href={
               'https://www.dextools.io/app/en/solana/pair-explorer/67C4rXhY649H828aW8epjbcjLBQVYu7j1eochM8ECE27'
             }
+            target="_blank"
             className="text-lightColor font-mono text-md lg:text-2xl mt-5"
           >
             <p>$nick CA:</p>
@@ -57,6 +59,8 @@ const Introduction = () => {
           />
         </div>
       </div>
+
+      <ProjectsSwiper />
 
       {/* Skills */}
       {/* <div className="w-full mt-6">

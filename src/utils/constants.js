@@ -8,6 +8,9 @@ import { HiOutlineDevicePhoneMobile } from 'react-icons/hi2';
 import { dextools } from '../../public';
 
 import {
+  meme1,
+  meme2,
+  meme3,
   furniStore,
   bestEats,
   digitalVision,
@@ -107,11 +110,11 @@ export const skillsLearning = [
 export const projects = [
   {
     id: 0,
-    title: 'Furni Store',
-    description: 'E-commerce Project',
-    image: furniStore,
-    url: 'https://furni-store-project.vercel.app/',
-    github: 'https://github.com/nghiapham27/furni-store-project',
+    title: 'meme1',
+    description: 'meme1',
+    image: meme1,
+    //url: 'https://furni-store-project.vercel.app/',
+    //github: 'https://github.com/nghiapham27/furni-store-project',
     techStacks: [
       { id: 0, text: 'CSS', icon: css },
       { id: 1, text: 'Javascript', icon: js },
@@ -124,11 +127,11 @@ export const projects = [
   },
   {
     id: 1,
-    title: 'Best Eats',
-    description: 'Landing Page Project',
-    image: bestEats,
-    url: 'https://best-eats-project.vercel.app/',
-    github: 'https://github.com/nghiapham27/best-eats-project',
+    title: 'meme2',
+    description: 'meme2',
+    image: meme2,
+    //url: 'https://best-eats-project.vercel.app/',
+    //github: 'https://github.com/nghiapham27/best-eats-project',
     techStacks: [
       { id: 0, text: 'HTML', icon: html },
       { id: 1, text: 'CSS', icon: css },
@@ -138,11 +141,11 @@ export const projects = [
   },
   {
     id: 2,
-    title: 'Digital Vision',
-    description: 'Landing Page Project',
-    image: digitalVision,
-    url: 'https://digital-vision-project.vercel.app/',
-    github: 'https://github.com/nghiapham27/digital-vision-project',
+    title: 'meme3',
+    description: 'meme3',
+    image: meme3,
+    //url: 'https://digital-vision-project.vercel.app/',
+    //github: 'https://github.com/nghiapham27/digital-vision-project',
     techStacks: [
       { id: 0, text: 'HTML', icon: html },
       { id: 1, text: 'CSS', icon: css },

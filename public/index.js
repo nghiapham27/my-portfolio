@@ -3,6 +3,10 @@ import logo from './images/my-logo.png';
 import nick from './images/nick.png';
 import nick_logo from './images/nick-logo.png';
 import dextools from './images/dextools.png';
+import meme1 from './images/meme-1.png';
+import meme2 from './images/meme-2.png';
+import meme3 from './images/meme-3.png';
+
 // Projects
 import furniStore from './images/furni-store.png';
 import bestEats from './images/best-eats.png';
@@ -27,6 +31,9 @@ export {
   nick,
   nick_logo,
   dextools,
+  meme1,
+  meme2,
+  meme3,
   furniStore,
   bestEats,
   digitalVision,
