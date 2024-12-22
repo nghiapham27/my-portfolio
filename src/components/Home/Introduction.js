@@ -19,9 +19,16 @@ const Introduction = () => {
       <div className="w-full flex flex-col md:flex-row justify-between gap-10">
         {/* Introduction */}
         <div className="w-full md:max-w-[600px] flex flex-col items-center md:items-start">
-          <h1 className="text-lightColor font-mono text-3xl lg:text-5xl mt-5 text-left">
-            $nick is the first token integrated on the Intelligence Layer for AI
-            Agents
+          <h1 className="text-lightColor font-mono text-3xl lg:text-5xl mt-5 ">
+            <a className="text-amber-100">$nick </a>
+            <a
+              className="text-left bg-gradient-to-r bg-clip-text  text-transparent 
+            from-indigo-500 via-purple-300 to-indigo-500
+            animate-text"
+            >
+              is the first token integrated on the Intelligence Layer for AI
+              Agents
+            </a>
           </h1>
 
           <Link
@@ -29,7 +36,7 @@ const Introduction = () => {
               'https://www.dextools.io/app/en/solana/pair-explorer/67C4rXhY649H828aW8epjbcjLBQVYu7j1eochM8ECE27'
             }
             target="_blank"
-            className="text-lightColor font-mono text-md lg:text-2xl mt-5"
+            className="text-lightColor font-mono text-base lg:text-2xl mt-5"
           >
             <p>$nick CA:</p>
             <a className="underline">
