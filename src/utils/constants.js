@@ -56,7 +56,7 @@ export const socials = [
     id: 2,
     text: 'resume',
     icon: <TbMoneybag />,
-    url: '',
+    url: 'https://panda.kodiak.finance/trade/0xb2aa63984bbc4e4778196c4b6f62f44c2b60df1f',
   },
 ];
 
