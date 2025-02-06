@@ -9,7 +9,7 @@ import 'swiper/css/navigation';
 import { Pagination, Navigation, Autoplay } from 'swiper';
 
 import { projects } from '@/utils/constants';
-import ProjectCard from './ProjectCard';
+import ProjectCard from './ProjectCard1';
 import { motion } from 'framer-motion';
 
 const ProjectsSwiper = () => {

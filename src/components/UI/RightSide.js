@@ -11,8 +11,8 @@ const RightSide = () => {
     >
       <div className="hidden xl:flex flex-col w-[120px] h-[250px] justify-between items-center">
         <p className="hover:text-lightColor rotate-90 cursor-pointer text-primaryColor tracking-wide">
-          <a>nickdotai</a>
-          <a>@2024</a>
+          <a>BeraTrade</a>
+          <a>@2025</a>
         </p>
         {/* vertical divider */}
         <div className="h-[120px] w-[2px] bg-darkColor mt-10"></div>

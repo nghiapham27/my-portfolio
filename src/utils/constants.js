@@ -1,5 +1,7 @@
 import { FaSquareXTwitter } from 'react-icons/fa6';
 import { FaTelegram, FaGlobe } from 'react-icons/fa';
+import { TbMoneybag } from 'react-icons/tb';
+
 import { SlGraduation } from 'react-icons/sl';
 import { MdOutlineContactPage } from 'react-icons/md';
 import { SlLocationPin } from 'react-icons/sl';
@@ -30,7 +32,7 @@ import {
 } from '../../public';
 
 export const navList = [
-  { id: 0, text: 'nickdotai', url: '/' },
+  { id: 0, text: 'BeraTrade', url: '/' },
   // { id: 1, text: 'About', url: '/about' },
   // { id: 2, text: 'Projects', url: '/projects' },
   // { id: 2, text: 'Contact', url: '/contact' },
@@ -41,22 +43,20 @@ export const socials = [
     id: 0,
     text: 'Github',
     icon: <FaSquareXTwitter />,
-    url: 'https://x.com/nickdotai',
+    url: 'https://x.com/BeraTrade',
   },
   {
     id: 1,
     text: 'Linkedin',
     icon: <FaTelegram />,
-    url: 'https://t.me/nickdotai',
+    url: '',
   },
 
   {
     id: 2,
     text: 'resume',
-    icon: (
-      <img width="30" height="30" src="https://i.ibb.co/YLLgR8b/dextools.png" />
-    ),
-    url: 'https://www.dextools.io/app/en/solana/pair-explorer/67C4rXhY649H828aW8epjbcjLBQVYu7j1eochM8ECE27',
+    icon: <TbMoneybag />,
+    url: '',
   },
 ];
 
@@ -166,7 +166,7 @@ export const contacts = [
     id: 1,
     title: 'Email',
     icon: <MdOutlineEmail />,
-    text: 'nickdotai @ 2024',
+    text: 'BeraTrade @ 2025',
   },
   // {
   //   id: 2,
